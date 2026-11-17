@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-europages-suppliers": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-europages-suppliers"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}

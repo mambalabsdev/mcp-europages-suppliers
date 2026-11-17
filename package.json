@@ -1,0 +1,53 @@
+{
+  "name": "@mambalabsdev/mcp-europages-suppliers",
+  "version": "1.0.0",
+  "description": "MCP server for Europages Suppliers: B2B suppliers by product keyword and country from Europages.",
+  "type": "module",
+  "bin": {
+    "mcp-europages-suppliers": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "europages",
+    "b2b",
+    "suppliers",
+    "manufacturers",
+    "lead-generation",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/europages-suppliers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-europages-suppliers"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-europages-suppliers"
+}
