@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-europages-suppliers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for Europages Suppliers: B2B suppliers by product keyword and country from Europages.",
   "author": {
     "name": "Mamba Labs"
