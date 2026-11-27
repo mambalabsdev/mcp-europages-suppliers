@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-europages-suppliers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Europages Suppliers: B2B suppliers by product keyword and country from Europages.",
   "type": "module",
   "bin": {
